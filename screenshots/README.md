@@ -7,7 +7,7 @@ an Nginx reverse proxy, HTTPS, and a UFW firewall, on Ubuntu (WSL).
 ## Architecture
 Client -> Nginx (reverse proxy, HTTPS) -> UFW firewall -> App server (127.0.0.1:8000)
 
-![Nginx and UFW Architecture](images/architecture-diagram.png)
+(Add your diagram image here if you made one.)
 
 ## What I built
 1. A tiny app listening only on 127.0.0.1:8000 (hidden from outside)
